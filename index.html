@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Développeur Web Junior</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header avec navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <span class="logo-text">Bisiaux.dev</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                    <li><a href="#competences" class="nav-link">Compétences</a></li>
+                    <li><a href="#projets" class="nav-link">Projets</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section d'accueil -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="greeting">Bonjour, je suis</span>
+                    <span class="name">Bisiaux Pierre</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Je suis un étudiant en développement web à la recherche d'une alternance
+                </p>
+                <p class="hero-description">
+                    Passionné par le développement web, j'apprends constamment de nouvelles technologies 
+                    et je cherche à acquérir une expérience professionnelle pour développer mes compétences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-placeholder">
+                    <div class="profile-icon">👨‍💻</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section compétences -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>HTML5 & CSS3</h3>
+                    <p>Structure sémantique et styles modernes</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="55"></div>
+                        </div>
+                        <span class="skill-percent">55%</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="40"></div>
+                        </div>
+                        <span class="skill-percent">40%</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">🔧</div>
+                    <h3>Git & GitHub</h3>
+                    <p>Gestion de versions</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="50"></div>
+                        </div>
+                        <span class="skill-percent">50%</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Design Responsive</h3>
+                    <p>Création d'interfaces adaptatives pour tous les appareils</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="80"></div>
+                        </div>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section projets -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/asset/istockphoto-1464245432-612x612.jpg" alt="Calculatrice JavaScript">
+                    </div>
+                    <div class="project-content">
+                        <h3>Calculatrice JavaScript</h3>
+                        <p>Une calculatrice interactive développée en JavaScript pur avec une interface moderne et responsive.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Voir le code</a>
+                            <a href="#" class="project-link">Démo live</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/asset/pexels-photo-1181244.jpeg" alt="Site vitrine restaurant">
+                    </div>
+                    <div class="project-content">
+                        <h3>Site Vitrine </h3>
+                        <p>Site web responsive pour un ... avec menu interactif.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Voir le code</a>
+                            <a href="#" class="project-link">Démo live</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/asset/depositphotos_41330755-stock-photo-playing-cards.jpg" alt="Jeu mémoire">
+                    </div>
+                    <div class="project-content">
+                        <h3>Jeu de Mémoire</h3>
+                        <p>Jeu interactif de mémoire avec différents niveaux de difficulté et système de score.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Voir le code</a>
+                            <a href="#" class="project-link">Démo live</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-moi</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Envie de discuter ?</h3>
+                    <p>Je suis ouvert aux opportunités d'alternance. N'hésitez pas à me contacter.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>bisiaux.pierre@outlook.fr</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>+33 6 42 33 82 13 </span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Antibe, France</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-action">
+                    <a href="mailto:bisiaux.pierre@outlook.fr" class="btn btn-primary btn-large">
+                        Envoyer un email
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/Bisiaux-dev" class="social-link">GitHub</a>
+                        <a href="https://www.linkedin.com/in/pierre-bisiaux-a01439305/" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Bisiaux Pierre. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
